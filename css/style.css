@@ -170,6 +170,54 @@ article#main-col{
   width:65%;
 }
 
+/* TicTacToe */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.flex-column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  height: 432px;
+  width: 432px;
+}
+  
+  
+.square {
+  border: 2px solid rgba(0, 0, 0, .75);
+  height: 140px;
+  width: 140px;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+  
+#reset-button {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black;
+  height: 55px;
+  width: 100px;
+  margin: 10px;
+}
+
 /* Media Queries */
 @media(max-width: 768px){
   header #branding,
